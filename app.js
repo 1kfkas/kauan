@@ -7,9 +7,6 @@ const imagens = [MakeImage("images/lixo.png"), MakeImage("images/fofo.jpg"), Mak
                 MakeImage("images/gostoso.gif"), MakeImage("images/nerd.gif"), MakeImage("images/redpill.gif"),
                 MakeImage("images/sigma.gif"), MakeImage("images/ai.jpeg")];
 
-document.getElementById("ser").innerText = coisas[0];
-    document.getElementById("ilustracao").src = imagens[0];
-
 let pastValue = 0;
 
 document.getElementById("girar").addEventListener("click", function() {
